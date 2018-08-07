@@ -29,5 +29,9 @@ public String getAvailability() {
 public void setAvailability(String availability) {
 	this.availability = availability;
 }
-
+@Override
+public String toString() {
+	return "\n {\n" +"\"Name\" : \"" + name + "\"\n" +"\"Id\"  : \"" + Id + "\"\n" +"\"specialization\"  :\"" + specialization +"\"\n" +"\"availability\"  : \""
+			+ availability + "\"\n}\n";
+}
 }

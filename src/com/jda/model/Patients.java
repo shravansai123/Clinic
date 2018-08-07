@@ -29,5 +29,9 @@ public String getAge() {
 public void setAge(String age) {
 	this.age = age;
 }
-
+@Override
+public String toString() {
+	return "\n {\n" +"\"Name\" : \"" + name + "\"\n" +"\"Id\"  : \"" + Id + "\"\n" +"\"Mobile\"  :\"" + mobile +"\"\n" +"\"Age\"  : \""
+			+ age + "\"\n}\n";
+}
 }
